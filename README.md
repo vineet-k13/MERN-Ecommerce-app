@@ -13,6 +13,7 @@ Protected routes for cart and orders
 
 Role-based access (user / admin)
 
+
 🛍️ Products & Categories
 
 View products and categories
@@ -20,6 +21,7 @@ View products and categories
 Admin-only product & category management
 
 MongoDB relationships with population
+
 
 🛒 Cart & Orders
 
@@ -33,8 +35,10 @@ View user order history
 
 Admin order management (status updates)
 
+
 🔁 Application Flow
 Register/Login → Browse Products → Add to Cart → Checkout → View Orders
+
 
 🛠️ Tech Stack
 
@@ -47,6 +51,7 @@ Database: MongoDB
 Authentication: JWT
 
 State Persistence: localStorage
+
 
 📌 Note
 
