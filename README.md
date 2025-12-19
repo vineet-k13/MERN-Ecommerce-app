@@ -1,65 +1,70 @@
-# MERN-Ecommerce-app
-A full-stack e-commerce web application built using the MERN stack.
-This project focuses on real-world backend logic, authentication, and complete user flow, with a simple and functional frontend.
+# Getting Started with Create React App
 
-🚀 Features
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Authentication
+## Available Scripts
 
-User registration & login
+In the project directory, you can run:
 
-JWT-based authentication
+### `npm start`
 
-Protected routes for cart and orders
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-Role-based access (user / admin)
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
--------------------------------------
+### `npm test`
 
-🛍️ Products & Categories
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-View products and categories
+### `npm run build`
 
-Admin-only product & category management
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-MongoDB relationships with population
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
--------------------------------------
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-🛒 Cart & Orders
+### `npm run eject`
 
-Add products to cart (localStorage)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Persistent cart across sessions
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Place orders from cart
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-View user order history
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-Admin order management (status updates)
+## Learn More
 
--------------------------------------
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-🔁 Application Flow
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-Register/Login → Browse Products → Add to Cart → Checkout → View Orders
+### Code Splitting
 
--------------------------------------
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-🛠️ Tech Stack
+### Analyzing the Bundle Size
 
-Frontend: React.js, Axios, React Router
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-Backend: Node.js, Express.js
+### Making a Progressive Web App
 
-Database: MongoDB
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-Authentication: JWT
+### Advanced Configuration
 
-State Persistence: localStorage
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
--------------------------------------
+### Deployment
 
-📌 Note
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-This project was built as a learning-focused full-stack application to understand real-world MERN development.
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
